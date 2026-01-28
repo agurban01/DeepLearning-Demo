@@ -26,7 +26,7 @@ This implementation uses an architecture with three key components:
 ## 📂 Project Structure
 
 ```text
-domain_adaptation_demo/
+DeepLearning-Demo/
 │
 ├── data/
 │   └── mnist_m.py          # On-the-fly synthetic MNIST-M generator
