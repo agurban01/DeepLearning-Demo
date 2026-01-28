@@ -1,5 +1,3 @@
-# DeepLearning-Demo
-
 # Domain-Adversarial Training of Neural Networks (DANN) 
 
 ### Deep Learning Educational Demo - Unsupervised Domain Adaptation
@@ -105,7 +103,7 @@ jupyter notebook notebooks/tsne_animation.ipynb
 
 Beyond the standard implementation, this project includes:
 
-1. **Dynamic Data Generation:** Instead of relying on large, static dataset downloads (like BSDS500), `data/mnist_m.py` generates MNIST-M samples **on-the-fly** using randomized RGB noise and inversion. This makes the code lightweight and immediately reproducible.
+1. **Dynamic Data Generation:** Instead of relying on large, static dataset downloads (like BSDS500), `data/mnist_m.py` generates MNIST-M samples *on-the-fly* using randomized RGB noise and inversion. This makes the code lightweight and immediately reproducible.
 2. **Live Latent Space Animation:** The project goes beyond static plots by implementing a training loop that captures latent space snapshots to animate the alignment process using t-SNE, providing a pedagogical view of *how* the network learns invariance.
 
 ## References
