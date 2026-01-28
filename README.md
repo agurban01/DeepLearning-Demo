@@ -21,7 +21,7 @@ This implementation uses an architecture with three key components:
 2. **Label Predictor:** Classifies the digit (0-9).
 3. **Domain Classifier:** Tries to predict if the image comes from the Source or the Target.
 
-✨ **The Magic Trick:** We use a **Gradient Reversal Layer (GRL)** . During the backward pass, this layer multiplies the gradient flowing from the domain classifier by a negative constant (). This forces the Feature Extractor to learn features that are **indistinguishable** between domains (confusing the discriminator) while still being useful for digit classification.
+**The Magic Trick:** We use a **Gradient Reversal Layer (GRL)** . During the backward pass, this layer multiplies the gradient flowing from the domain classifier by a negative constant (). This forces the Feature Extractor to learn features that are **indistinguishable** between domains (confusing the discriminator) while still being useful for digit classification.
 
 ## Project Structure
 
